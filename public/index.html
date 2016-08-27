@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Espn Articles</title>
+  <style>
+    body{
+      /*background-color: #DECADE*/
+      background-color: black;
+      color: red;
+    }
+    a{
+      color: white;
+      font-size: 20px;
+    }
+    #wrapper{
+      width:960px;
+      margin: 0 auto;
+      padding-top: 5%;
+    }
+    #articles{
+      border: white;
+      width:60%;
+      height:700px;
+      display:inline-block;
+      overflow: auto;
+    }
+    #notes{
+      width:30%;
+      float:right;
+    }
+    #posted{
+      /*clear: right;
+      float: right;
+      width: 30%;
+      height: 248px;
+      background: white;
+      margin-top: -16em;*/
+    }
+    textarea, input{
+      display:block;
+      width:100%;
+      background-color: black;
+      color: red;
+    }
+    input{
+      height:36px;
+      font-size: 24px;
+    }
+    textarea{
+      height:200px;
+      font-size: 18px;
+    }
+    button {
+    background: black;
+    color:red;
+    margin:10px;
+    }
+
+    button:hover {
+    background-color: red; /* Green */
+    color: black;
+    }
+  </style>
+</head>
+<body>
+  <div id="wrapper">
+    <h1>Espn Article Scrapper</h1>
+    <div id="articles"></div>
+    <div id="notes"></div>
+    <div id="posted"> Notes will be posted here</div>
+  </div>
+  <script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

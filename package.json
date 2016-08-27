@@ -1,0 +1,28 @@
+{
+  "name": "week-18-scraping",
+  "version": "1.0.0",
+  "description": "scraping knowledge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bnjmnrtg/Week-18-Scraping.git"
+  },
+  "author": "Ben Arteaga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bnjmnrtg/Week-18-Scraping/issues"
+  },
+  "homepage": "https://github.com/bnjmnrtg/Week-18-Scraping#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cheerio": "^0.20.0",
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^4.5.9",
+    "morgan": "^1.7.0",
+    "request": "^2.74.0"
+  }
+}
