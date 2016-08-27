@@ -15,6 +15,9 @@
   "bugs": {
     "url": "https://github.com/bnjmnrtg/Week-18-Scraping/issues"
   },
+  "engines": {
+      "node": "6.2.2"
+  },
   "homepage": "https://github.com/bnjmnrtg/Week-18-Scraping#readme",
   "dependencies": {
     "body-parser": "^1.15.2",
