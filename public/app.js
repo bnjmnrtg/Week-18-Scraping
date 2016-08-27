@@ -3,7 +3,7 @@ $.getJSON('/articles', function(data) {
   // for each one
   for (var i = 0; i<data.length; i++){
     // display the apropos information on the page
-    $('#articles').append('<h2 data-id="' + data[i]._id + '">'+ data[i].title + '<br /><a target="_blank" href="'+ data[i].link + '"> Visit Article</a></h2>');
+    $('#articles').append('<h2 data-id="' + data[i]._id + '">'+ data[i].title + '<br /><a target="_blank" href="http://www.espn.com/'+ data[i].link + '"> Visit Article</a></h2>');
   }
 });
 
