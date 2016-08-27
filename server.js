@@ -19,7 +19,7 @@ app.use(express.static('public'));
 
 
 // Database configuration with mongoose
-mongoose.connect('mongodb://localhost/espnDB');
+mongoose.connect('mongodb://heroku_1x38v916:eksgqat57bln9t33ffpmek7h5v@ds017726.mlab.com:17726/heroku_1x38v916');
 var db = mongoose.connection;
 
 // show any mongoose errors
